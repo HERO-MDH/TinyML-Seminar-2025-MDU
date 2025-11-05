@@ -1,0 +1,5 @@
+# Ignore vendored TinyEngine source
+tinyengine-main/
+
+# Ignore local notebook datasets
+notebooks/data/
