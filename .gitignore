@@ -3,3 +3,5 @@ tinyengine-main/
 
 # Ignore local notebook datasets
 notebooks/data/
+
+README_files/
