@@ -1,13 +1,13 @@
-# TinyML-Seminar-2025-MDU
+# TinyML-Workshop-2025-MDU
+*Building Efficient AI for the Edge.*
 
-Seminar materials and hands-on notebooks for TinyML at Mälardalens universitet (2025 edition). The focus is on clear, practical demonstrations of pruning and quantization for edge deployment.
+Seminar materials and hands-on notebooks for TinyML Workshop at Mälardalens University (2025 edition).
 
 ## What’s inside
 
 - Notebooks
-	- `notebooks/TinyML_Pruning_Seminar.ipynb` — Visual introduction to pruning (unstructured vs structured) and an iterative pruning demo on MNIST using PyTorch.
-	- `notebooks/TinyML_Quantization_Seminar.ipynb` — Quantization concepts and practical workflow (seminar version).
-	- `notebooks/TinyML_Quantization_Full.ipynb` — Extended quantization notebook (full version).
+	- `notebooks/TinyML_Pruning.ipynb` — Visual introduction to pruning (unstructured vs structured) and an iterative pruning demo on MNIST using PyTorch.
+	- `notebooks/TinyML_Quantization.ipynb` — Quantization concepts and practical workflow.
 - Slides
 	- See `Slides/` for the seminar slide deck.
 
@@ -36,10 +36,10 @@ These points reflect the seminar’s motivation for on-device ML:
 2. Pruning (slides)
 	- Unstructured vs structured pruning; iterative pruning and fine-tuning.
 3. Hands-on notebooks
-	- `notebooks/TinyML_Quantization_Seminar.ipynb`
-	- `notebooks/TinyML_Pruning_Seminar.ipynb`
+	- `notebooks/TinyML_Quantization.ipynb`
+	- `notebooks/TinyML_Pruning.ipynb`
 4. NAS & Knowledge Distillation (slides)
-	- Session by a co-facilitator covering NAS and KD concepts.
+	- Session covering NAS and KD concepts.
 5. MCU demo (TinyEngine)
 	- On-device inference demo using TinyEngine; see `tinyengine-main/` and `tinyengine-main/tutorial/` for references.
 
@@ -51,8 +51,6 @@ The notebooks prioritize pedagogy and reproducibility.
 2. Data: MNIST is placed under `notebooks/data/MNIST/raw/` for offline use.
 3. Open the notebooks from VS Code and run cells top-to-bottom. GPU will be used automatically if available.
 
+The Notebooks can even more conviniently run on Google Colab.
 
-## Acknowledgements
-
-- PyTorch and TorchVision are used for training, pruning utilities, and datasets.
 
